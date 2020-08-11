@@ -439,12 +439,11 @@ button.menu-button:focus {
 
 }
 .top-social li:first-child, .top-social li:last-child {
-  width: 41.1%;
+  width: calc(50% - 81px);
   height: 30px;
   background-color: rgba(255, 253, 236, 0.85);
 }
-.top-social li:first-child {
-}
+
 .block-1 h1 {
   font-size: 191px;
   font-weight: 800;
@@ -452,7 +451,7 @@ button.menu-button:focus {
   color: rgba(255, 253, 236, 0.85);
   z-index: 11;
   position: relative;
-  left: -.7%;
+  left: -5px;
   margin-top: -130px;
   top: 50%;
 }

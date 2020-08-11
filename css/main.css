@@ -402,7 +402,7 @@ button.menu-button:focus {
 
 
 .top-social li:first-child, .top-social li:last-child {
-  width: calc(100% - 200px)!important;
+  width: calc(50% - 200px)!important;
   height: 30px;
 }
 

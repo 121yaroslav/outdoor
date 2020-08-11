@@ -394,13 +394,13 @@ button.menu-button:focus {
 .logo-wrapper {
   position: absolute;
   left: 50%;
-  margin-left: -472px;
+  transform: translateX(-50%);
+  height: 100%;
+  z-index: 999;
   height: 100%;
 }
-@media screen and (max-width: 1020px) and (min-width: 768px){
-.logo-wrapper {
-  margin-left: -283px;
-}
+
+
 .top-social li:first-child, .top-social li:last-child {
   width: 35%!important;
   height: 30px;

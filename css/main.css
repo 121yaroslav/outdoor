@@ -401,12 +401,6 @@ button.menu-button:focus {
 }
 
 
-.top-social li:first-child, .top-social li:last-child {
-  width: calc(50% - 75px)!important;
-  height: 30px;
-}
-
-
 }
 
 @media screen and (max-width: 767px){
@@ -415,6 +409,11 @@ button.menu-button:focus {
 }
 .top-social li:first-child, .top-social li:last-child {
   width: 18.4%!important;
+  height: 30px;
+}
+
+.top-social li:first-child, .top-social li:last-child {
+  width: calc(50% - 75px);
   height: 30px;
 }
 
